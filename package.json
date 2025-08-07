@@ -7,7 +7,7 @@
     "start:dev": "nodemon",
     "start": "npx ts-node src/index.ts",
     "test": "jest",
-    "build": "tsc && mkdir -p dist/assets && cp src/assets/names.txt dist/assets/"
+    "build": "tsc && mkdir -p dist/assets && cp src/assets/names.txt dist/assets/",
     "secret": "ts-node src/bcrypt-secret-generator.ts"
   },
   "repository": {
